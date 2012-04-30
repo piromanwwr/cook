@@ -23,3 +23,21 @@ development:
 #  database: db/production.sqlite3
 #  pool: 5
 #  timeout: 5000
+
+production:
+  adapter: mysql
+  database: cook_production
+  username: root
+  password: MyNewPass
+  host: localhost 
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: mysql
+  database: cook_test
+  username: root
+  password: MyNewPass
+  host: localhost 
+  pool: 5
+  timeout: 5000
